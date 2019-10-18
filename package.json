@@ -1,0 +1,19 @@
+{
+  "name": "jestlearning",
+  "version": "1.0.0",
+  "description": "JEST LEARNING",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Johnny",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafefarm-johnny/JEST.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0"
+  }
+}
