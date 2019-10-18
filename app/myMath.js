@@ -7,11 +7,5 @@ exports.minus = (a, b) => {
 }
 
 exports.total = (numbers) => {
-    let result = 0;
-
-    numbers.forEach(n => {
-        result += n;
-    });
-
-    return result;
+    return numbers.reduce((num1, num2) => num1 + num2);
 }
